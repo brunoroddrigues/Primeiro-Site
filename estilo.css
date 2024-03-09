@@ -1,0 +1,170 @@
+body{
+background-image: url("back.jpg");
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: relative;
+background-size: 2000px 1000px;
+margin: 13px;
+}
+.menu{
+postion: absolute; 
+width: 100%;
+height: 50px;
+background-color: red;
+font-family:  Arial, sans-serif;
+font-size: 25px;
+}
+.menu ul{
+list-style: none;
+left: 0%;
+padding-left: 5%;
+}
+.menu ul li{
+width: 260px;
+float: left;
+font-family: Arial, Helvetica, sans-serif;
+}
+.menu ul li a{ 
+padding: 10px;
+display: block;
+text-decoration: none;
+text-align: center;
+color: white;
+
+}
+.menu ul ul{
+position: absolute; 
+visibility: hidden;
+}
+.menu ul li:hover ul{
+visibility: visible;
+position: absolute;
+font-size: 25px;
+}
+.menu ul ul li{
+background-color: red;
+float: none;
+position: relative;
+}
+.menu a:hover{
+background-color: black;
+}
+.fatec.png{
+text-align: absolute;
+margin-top: 50px;
+}
+
+.h2{ position: center;
+bottom: -14%;
+left: 28%;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 60px;
+color: white;
+padding: 0 33%;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3{ 
+bottom: -14%;
+left: 28%;
+font-family: sans-serif, arial;
+font-size: 25px;
+color: red;
+}
+.video{
+    padding: 0 0 0 65%;
+    margin-top: -23%;
+}
+div ul li a:hover{
+    color: red;
+    
+}
+h3{
+color: red;
+font-weight: 100;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25PX;
+}
+p{
+color:black;
+background-color: red;
+font-stretch:condensed;
+font-size: bold;
+
+}
+h1{
+color:white;
+font-size: 20;
+font-size: large;
+}
+
+form input, form button {
+font-size: 1.2em;
+border-radius: 0.2em;
+border: none;
+padding: 0.2em;
+}
+form button {
+cursor:pointer;
+background: none;
+color: black;
+}
+form button:hover{
+background-color: black;
+color:white;
+}
+
+
+.audio{
+    padding: 0 36%;
+    margin-top:5%;
+
+}
+a {
+    color:white;
+}
+
+.face{
+    display: flex;
+    justify-content: end;
+}
+
+header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foto_bruno{
+    border: 2px solid red;
+    border-radius: 50%;
+}
+.bruno_foto{
+    padding: 0% 35%;
+
+}
+.jahu_fatec{
+    margin-top: -23%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

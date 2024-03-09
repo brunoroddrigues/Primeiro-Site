@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Teste Formulário</title>
+    </head>
+    
+    <body>
+        <hr>
+        <form method="post" action="">
+            <h1>Entrada de texto</h1>
+            Digite seu nome completo:
+            <input type="text" value="" name="name" size="20" maxlength="35">
+            <br>
+            Digite sua senha:
+            <input type="password" value="" name="senha" size="20" maxlength="15">
+        <hr>
+            <h1>Checkbox: permite escolher várias opções</h1>
+            Quais veículos você possui?
+            <br>
+            <input type="checkbox" name="veiculo" value="">Eu tenho uma bicicleta
+            <br>
+            <input type="checkbox" name="veiculo" value="">Eu tenho um carro
+            <br>
+            <input type="checkbox" name="veiculo" value="">Eu tenho uma moto
+        <hr>
+            <h1>Radio: permite escolher uma das opções</h1>
+            <br>
+            Qual o seu sexo?
+            <br>
+            <input type="radio" name="sexo" value="">Masculino
+            <br>
+            <input type="radio" name="sexo" value="">Feminino
+            <br>
+            <input type="radio" name="sexo" value="">Outro
+        <hr>
+            <h1>Textarea: entrada de várias linhas de texto</h1>
+            <textarea name="obs" value="observações" rows="5" cols="30"></textarea>
+        <hr>
+            <h1>Menus</h1>
+            Onde você quer passar as férias?
+            <select>
+                <option value="local">Praia</option>
+                <option value="local">No exterior</option>
+                <option value="local">Na sua cidade</option>
+            </select>
+        <hr>
+            <h1>Botão de limpeza</h1>
+                <input type="reset" name="cancelar" value="cancelar">
+        <hr>
+            <h1>Botão de Submissão</h1>
+            <input type="submit" name="submit" value="enviar">
+
+        </form>
+    </body>
+</html>
